@@ -115,9 +115,11 @@
       -o-transform: translate3d(0, 0, 0);
     }
 
-    img {
+    .portrait {
       width: 250px;
       height: 250px;
+      background: url("/dist/img/portrait-large.JPG");
+      background-size: cover;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -125,18 +127,6 @@
       -o-border-radius: 50%;
       border: solid 3px $secondary-color;
     }
-
-    // .portrait {
-    //   width: 250px;
-    //   height: 250px;
-    //   background: url("../dist/img/portrait-large.jpeg");
-    //   border-radius: 50%;
-    //   -webkit-border-radius: 50%;
-    //   -moz-border-radius: 50%;
-    //   -ms-border-radius: 50%;
-    //   -o-border-radius: 50%;
-    //   border: solid 3px $secondary-color;
-    // }
   }
 
   .nav-item {
