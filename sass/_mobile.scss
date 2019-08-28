@@ -89,8 +89,8 @@
     }
 
     .lg-heading {
-      margin-top: 1rem;
-      font-size: 5rem;
+      margin-top: 2.5rem;
+      font-size: 3rem;
     }
   }
   // main#home h1 {
@@ -99,5 +99,11 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
+    }
   }
 }
