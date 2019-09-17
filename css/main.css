@@ -99,7 +99,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait-large.JPG");
+      background: url("img/portrait-large.JPG");
       background-size: cover;
       border-radius: 50%;
       -webkit-border-radius: 50%;
@@ -363,7 +363,7 @@ main {
     -ms-transform: translate3d(100%, 0, 0);
     -o-transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("/dist/img/portrait-small.jpeg");
+      background: url("img/portrait-small.jpeg");
       width: 150px;
       height: 150px;
       background-size: cover; }
